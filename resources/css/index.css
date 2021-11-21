@@ -1,0 +1,52 @@
+/* # General */
+/* ## Font */
+/* The fonts going to be used: Barlow, w:600; Fraunces, w:700, 900; */
+@font-face {
+    font-family: "Barlow";
+    src: url(../fonts/Barlow/Barlow-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url(../fonts/Fraunces/Fraunces-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url(../fonts/Fraunces/Fraunces-ExtraBold.ttf);
+    font-weight: 900;
+}
+/* Other */
+* {
+    font-family: "Barlow", sans-serif;
+    user-select: none;
+}
+html {
+    font-size: 18px;
+}
+
+/* # Constants */
+/* ## Colors */
+:root {
+    /* ### primary */
+    --soft-red: #fe7867;
+    --yellow: #fad400;
+    --dark-desaturated-cyan: #25564b;
+    --dark-blue: #19536b;
+    --dark-moderate-cyan: #458c7e;
+    /* ### Neutral */
+    --very-dark-desaturated-blue: #23303e;
+    --very-dark-grayish-blue: #5a636c;
+    --dark-grayish-blue: #818498;
+    --grayish-blue: #a7abae;
+    /* white color */
+}
+
+/* # Layout and Design */
+@media only screen and (min-width: 375px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
