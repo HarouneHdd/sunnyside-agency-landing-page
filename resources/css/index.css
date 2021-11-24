@@ -235,6 +235,42 @@ h1, h2, h3, h4, strong {
     .grid-no-gap img {
         width: 100%;
     }
+
+    #footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-overlay {
+        position: absolute;
+        background-color: var(--dark-moderate-cyan);
+        opacity: 0.5;
+        z-index: 99;
+        height: 360px;
+        width: 100%;
+    }
+    #site-logo-footer {
+        filter: brightness(0.2);
+        width: 170px;
+        margin-top: 65px;
+        margin-bottom: 40px;
+    }
+    #footer-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        font-family: "Barlow";
+        color: var(--very-dark-grayish-blue);
+        margin-bottom: 90px;
+    }
+    footer .social-media-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    footer .social-media-links img {
+        margin: 0 10px;
+        filter: brightness(0.4);
+    }
 }
 
 @media only screen and (min-width: 992px) {
