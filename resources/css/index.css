@@ -186,6 +186,24 @@ h1, h2, h3, h4, strong {
     .dark-blue-color {
         color: var(--dark-blue);
     }
+
+    #testimonial-section {
+        background-color: rgb(247, 241, 229);
+        flex-direction: column;
+        align-items: center;
+    }
+    #testimonial-section h4 {
+        color: var(--grayish-blue);
+        margin-top: 65px;
+        margin-bottom: 65px;
+        letter-spacing: 5px;
+        font-size: 0.95rem;
+    }
+    .testimonial-info img {
+
+        border-radius: 50%;
+        align-self: center;
+    }
 }
 
 @media only screen and (min-width: 992px) {
