@@ -191,18 +191,49 @@ h1, h2, h3, h4, strong {
         background-color: rgb(247, 241, 229);
         flex-direction: column;
         align-items: center;
+        padding-bottom: 20px;
     }
     #testimonial-section h4 {
         color: var(--grayish-blue);
-        margin-top: 65px;
+        margin-top: 70px;
         margin-bottom: 65px;
         letter-spacing: 5px;
         font-size: 0.95rem;
     }
+    .testimonial-info {
+        flex-direction: column;
+        align-items: center;
+    }
     .testimonial-info img {
-
         border-radius: 50%;
+        width: 20%;
         align-self: center;
+        margin-bottom: 38px;
+    }
+    .testimonial-info p {
+        width: 88%;
+        text-align: center;
+        line-height: 1.5rem;
+        margin-bottom: 35px;
+    }
+    .testimonial-info strong {
+        font-size: 1.1rem;
+        font-weight: bolder;
+        margin-bottom: 15px;
+    }
+    .testimonial-info small {
+        color: var(--grayish-blue);
+        font-size: 0.8rem;
+        margin-bottom: 65px;
+    }
+
+    .grid-no-gap {
+        display: grid;
+        width: 100%;
+        grid-template: repeat(2, auto) / repeat(2, auto);
+    }
+    .grid-no-gap img {
+        width: 100%;
     }
 }
 
