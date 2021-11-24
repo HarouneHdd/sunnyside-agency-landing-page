@@ -24,6 +24,9 @@
 html {
     font-size: 18px;
 }
+h1, h2, h3, h4, strong {
+    font-family: "Fraunces";
+}
 
 /* # Constants */
 /* ## Colors */
@@ -43,29 +46,145 @@ html {
 }
 
 /* # Layout and Design */
+.flex-center-content {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 375px) {
     header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         background-color: #3ebeff;
-
+        height: 80px;
+        width: 100%;
+    }
+    #site-logo {
+        margin-left: 20px;
     }
     #mobile-nav-button {
         background-image: url("../images/mobile-nav-icon.jpg");
         border: none;
         background-color: transparent;
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         background-size: 100%;
+        margin-right: 20px;
     }
 
     #content-container {
         display: flex;
         flex-direction: column;
-        
         width: 100%;
     }
-     h1 {
-        background-color: #3ebeff;
 
+    #hero-section {
+        position: relative;
+        z-index: -1;
+        height: 450px;
+    }
+    #hero-section h1 {
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: 2.3rem;
+        letter-spacing: 6px;
+        line-height: 2.8rem;
+        bottom: 300px;
+    }
+    #hero-cover-image {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    #arrow-down-icon {
+        position: absolute;
+        bottom: 132px;
+    }
+
+    .promotion-section {
+        position: relative;
+        flex-direction: column;
+        background-color: rgb(247, 241, 229);
+    }
+    .promotion-section img {
+        width: 100%;
+    }
+    .promotion-section h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: 65px;
+        margin-bottom: 30px;
+    }
+    .promotion-section p {
+        text-align: center;
+        width: 86%;
+        align-self: center;
+        color: var(--very-dark-grayish-blue);
+        line-height: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .promotion-section a {
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        font-family: "Fraunces";
+    }
+    .promotion-section .text-underline {
+        position: absolute;
+        z-index: 0;
+        align-self: center;
+        width: 138px;
+        height: 9px;
+        bottom: 65px;
+        border-radius: 15%;
+        opacity: 0.3;
+    }
+    .yellow-bg {
+        background-color: var(--yellow);
+    }
+    .red-bg {
+        background-color: var(--soft-red);
+    }
+
+    .feature-section {
+        position: relative;
+        height: 570px;
+        background-size: 100%;
+    }
+    .feature-section h3 {
+        position: relative;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: bolder;
+        top: 380px;
+    }
+    .feature-section p {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        align-self: center;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.45rem;
+        top: 408px;
+    }
+    .cherry-bg {
+        background-image: url("../images/mobile/image-graphic-design.jpg");
+    }
+    .orange-bg {
+        background-image: url("../images/mobile/image-photography.jpg");
+    }
+    .dark-cyan-color {
+        color: var(--dark-desaturated-cyan);
+    }
+    .dark-blue-color {
+        color: var(--dark-blue);
     }
 }
 
