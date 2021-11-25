@@ -73,6 +73,36 @@ h1, h2, h3, h4, strong {
         background-size: 100%;
         margin-right: 20px;
     }
+    #mobile-nav {
+        position: absolute;
+        z-index: 99;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #mobile-nav div {
+        background-color: white;
+        width: 90%;
+        height: 280px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #mobile-nav a {
+        font-family: "Barlow";
+        color: var(--dark-grayish-blue);
+        margin: 0 20px;
+    }
+    #mobile-nav button {
+        font-family: "Fraunces";
+        border-color: transparent;
+        padding: 15px 25px;
+        background-color: var(--yellow);
+        border-radius: 25px;
+    }
 
     #desktop-nav {
         display: none;
@@ -339,6 +369,9 @@ h1, h2, h3, h4, strong {
     }
 
     #mobile-nav-button {
+        display: none;
+    }
+    #mobile-nav {
         display: none;
     }
     /* --------------------------------------------------- */
