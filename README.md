@@ -25,8 +25,7 @@ Users should be able to:
 
 ![desktop version](./screenshots/desktop-version.png)
 ![mobile version p1](./screenshots/mobile-version-p1.png)
-![mobile version p2](./screenshots/mobile-version-p2.png)
-![mobile version p3](./screenshots/mobile-version-p3.png)
+![mobile version p2](./screenshots/mobile-version-p3.png)
 
 ### Links
 
