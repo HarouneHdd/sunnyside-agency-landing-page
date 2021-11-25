@@ -361,145 +361,93 @@ h1, h2, h3, h4, strong {
     }
     .promotion-section .hpa-container {
         margin: 0 auto;
-        height: 90%;
-        width: 60%;
+        height: 88%;
+        width: 65%;
         align-items: flex-start;
     }
     .promotion-section h2 {
         text-align: start;
-        font-size: 2rem;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
         margin-top: 70px;
         margin-bottom: 30px;
     }
     .promotion-section p {
         text-align: start;
         width: 100%;
-        line-height: 1.5rem;
-        margin-bottom: 34px;
+        font-size: 1.03rem;
+        line-height: 1.65rem;
+        margin-bottom: 35px;
     }
     /* ------------------------------------------ */
     /* ## Section 02 --------------------------- */
+    .features-container {
+        display: flex;
+    }
     .feature-section {
         position: relative;
-        height: 570px;
+        width: 50%;
         background-size: 100%;
     }
     .feature-section h3 {
-        position: relative;
-        text-align: center;
         font-size: 1.7rem;
-        font-weight: bolder;
-        top: 380px;
     }
     .feature-section p {
         position: relative;
-        width: 90%;
-        margin: 0 auto;
-        align-self: center;
-        text-align: center;
+        width: 50%;
         font-size: 0.9rem;
         line-height: 1.45rem;
-        top: 408px;
     }
     .cherry-bg {
-        background-image: url("../images/mobile/image-graphic-design.jpg");
+        background-image: url("../images/desktop/image-graphic-design.jpg");
     }
     .orange-bg {
-        background-image: url("../images/mobile/image-photography.jpg");
-    }
-    .dark-cyan-color {
-        color: var(--dark-desaturated-cyan);
-    }
-    .dark-blue-color {
-        color: var(--dark-blue);
+        background-image: url("../images/desktop/image-photography.jpg");
     }
     /* ----------------------------------------- */
     /* ## Section 03 ------------------------------- */
     #testimonial-section {
-        background-color: rgb(247, 241, 229);
         flex-direction: column;
-        align-items: center;
-        padding-bottom: 20px;
+        padding-bottom: 85px;
     }
     #testimonial-section h4 {
-        color: var(--grayish-blue);
-        margin-top: 70px;
-        margin-bottom: 65px;
+        margin-top: 150px;
+        margin-bottom: 80px;
         letter-spacing: 5px;
-        font-size: 0.95rem;
+        font-size: 1.2rem;
     }
     .testimonial-info {
         flex-direction: column;
         align-items: center;
-    }
-    .testimonial-info img {
-        border-radius: 50%;
-        width: 20%;
-        align-self: center;
-        margin-bottom: 38px;
-    }
-    .testimonial-info p {
-        width: 88%;
-        text-align: center;
-        line-height: 1.5rem;
-        margin-bottom: 35px;
-    }
-    .testimonial-info strong {
-        font-size: 1.1rem;
-        font-weight: bolder;
-        margin-bottom: 15px;
-    }
-    .testimonial-info small {
-        color: var(--grayish-blue);
-        font-size: 0.8rem;
-        margin-bottom: 65px;
+        width: 28%;
     }
     /* ------------------------------------ */
     /* ## Section 04 (Galary) ---------------------------- */
     .grid-no-gap {
-        display: grid;
-        width: 100%;
-        grid-template: repeat(2, auto) / repeat(2, auto);
+        grid-template: repeat(1, auto) / repeat(4, auto);
     }
-    .grid-no-gap img {
-        width: 100%;
+    .grid-no-gap #milkbottles-g {
+        content: url("../images/desktop/image-gallery-milkbottles.jpg");
+    }
+    .grid-no-gap #orange-g {
+        content: url("../images/desktop/image-gallery-orange.jpg");
+    }
+    .grid-no-gap #cone-g {
+        content: url("../images/desktop/image-gallery-cone.jpg");
+    }
+    .grid-no-gap #sugar-cubes-g {
+        content: url("../images/desktop/image-gallery-sugarcubes.jpg");
     }
     /* ---------------------------------------- */
     /* ## Footer ------------------------------------ */
-    #footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    #footer-overlay {
-        position: absolute;
-        background-color: var(--dark-moderate-cyan);
-        opacity: 0.5;
-        z-index: 99;
-        height: 360px;
-        width: 100%;
-    }
     #site-logo-footer {
-        filter: brightness(0.2);
         width: 170px;
-        margin-top: 65px;
-        margin-bottom: 40px;
     }
     #footer-nav {
-        display: flex;
-        justify-content: space-around;
-        width: 95%;
-        font-family: "Barlow";
-        color: var(--very-dark-grayish-blue);
-        margin-bottom: 90px;
-    }
-    footer .social-media-links {
-        display: flex;
-        justify-content: center;
-        width: 100%;
+        width: 25%;
     }
     footer .social-media-links img {
-        margin: 0 10px;
-        filter: brightness(0.4);
+        margin: 0 15px;
     }
     /* --------------------------------------- */
 }
