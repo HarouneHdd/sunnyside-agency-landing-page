@@ -391,12 +391,14 @@ h1, h2, h3, h4, strong {
     }
     .feature-section h3 {
         font-size: 1.7rem;
+        top: 377px;
     }
     .feature-section p {
         position: relative;
         width: 50%;
         font-size: 0.9rem;
         line-height: 1.45rem;
+        top: 405px;
     }
     .cherry-bg {
         background-image: url("../images/desktop/image-graphic-design.jpg");
@@ -408,7 +410,7 @@ h1, h2, h3, h4, strong {
     /* ## Section 03 ------------------------------- */
     #testimonial-section {
         flex-direction: column;
-        padding-bottom: 85px;
+        padding-bottom: 90px;
     }
     #testimonial-section h4 {
         margin-top: 150px;
