@@ -52,6 +52,7 @@ h1, h2, h3, h4, strong {
 }
 
 @media only screen and (min-width: 375px) {
+    /* ## Header ------------------------------------------- */
     header {
         display: flex;
         align-items: center;
@@ -76,6 +77,7 @@ h1, h2, h3, h4, strong {
     #desktop-nav {
         display: none;
     }
+    /* --------------------------------------------------- */
 
     #content-container {
         display: flex;
@@ -83,6 +85,7 @@ h1, h2, h3, h4, strong {
         width: 100%;
     }
 
+    /* ## Hero Banner ---------------------------------------- */
     #hero-section {
         position: relative;
         z-index: -1;
@@ -108,7 +111,8 @@ h1, h2, h3, h4, strong {
         position: absolute;
         bottom: 132px;
     }
-
+    /* -------------------------------------------------- */
+    /* ## Section 01 ---------------------------------------- */
     .promotion-section {
         position: relative;
         flex-direction: column;
@@ -163,7 +167,8 @@ h1, h2, h3, h4, strong {
     .red-bg {
         background-color: var(--soft-red);
     }
-
+    /* ------------------------------------------ */
+    /* ## Section 02 ------------------------------ */
     .feature-section {
         position: relative;
         height: 570px;
@@ -198,7 +203,8 @@ h1, h2, h3, h4, strong {
     .dark-blue-color {
         color: var(--dark-blue);
     }
-
+    /* ----------------------------------------- */
+    /* ## Section 03 ------------------------------- */
     #testimonial-section {
         background-color: rgb(247, 241, 229);
         flex-direction: column;
@@ -238,7 +244,8 @@ h1, h2, h3, h4, strong {
         font-size: 0.8rem;
         margin-bottom: 65px;
     }
-
+    /* ------------------------------------ */
+    /* ## Section 04 (Galary) ---------------------------- */
     .grid-no-gap {
         display: grid;
         width: 100%;
@@ -247,7 +254,8 @@ h1, h2, h3, h4, strong {
     .grid-no-gap img {
         width: 100%;
     }
-
+    /* ---------------------------------------- */
+    /* ## Footer ------------------------------------ */
     #footer-content {
         flex-direction: column;
         align-items: center;
@@ -283,9 +291,11 @@ h1, h2, h3, h4, strong {
         margin: 0 10px;
         filter: brightness(0.4);
     }
+    /* --------------------------------------- */
 }
 
 @media only screen and (min-width: 992px) {
+    /* ## Header ------------------------------------------- */
     header {
         height: 100px;
     }
@@ -313,7 +323,8 @@ h1, h2, h3, h4, strong {
     #mobile-nav-button {
         display: none;
     }
-
+    /* --------------------------------------------------- */
+    /* ## Hero Banner ---------------------------------------- */
     #hero-section {
         position: relative;
         z-index: -1;
@@ -331,7 +342,8 @@ h1, h2, h3, h4, strong {
         position: absolute;
         bottom: 330px;
     }
-
+    /* -------------------------------------------------- */
+    /* ## Section 01 ---------------------------------------- */
     .promotion-section img {
         width: 50%;
     }
@@ -393,7 +405,8 @@ h1, h2, h3, h4, strong {
     .red-bg {
         background-color: var(--soft-red);
     }
-
+    /* ------------------------------------------ */
+    /* ## Section 02 --------------------------- */
     .feature-section {
         position: relative;
         height: 570px;
@@ -428,7 +441,8 @@ h1, h2, h3, h4, strong {
     .dark-blue-color {
         color: var(--dark-blue);
     }
-
+    /* ----------------------------------------- */
+    /* ## Section 03 ------------------------------- */
     #testimonial-section {
         background-color: rgb(247, 241, 229);
         flex-direction: column;
@@ -468,7 +482,8 @@ h1, h2, h3, h4, strong {
         font-size: 0.8rem;
         margin-bottom: 65px;
     }
-
+    /* ------------------------------------ */
+    /* ## Section 04 (Galary) ---------------------------- */
     .grid-no-gap {
         display: grid;
         width: 100%;
@@ -477,7 +492,8 @@ h1, h2, h3, h4, strong {
     .grid-no-gap img {
         width: 100%;
     }
-
+    /* ---------------------------------------- */
+    /* ## Footer ------------------------------------ */
     #footer-content {
         flex-direction: column;
         align-items: center;
@@ -513,4 +529,5 @@ h1, h2, h3, h4, strong {
         margin: 0 10px;
         filter: brightness(0.4);
     }
+    /* --------------------------------------- */
 }
