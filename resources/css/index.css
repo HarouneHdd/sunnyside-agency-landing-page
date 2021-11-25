@@ -212,7 +212,7 @@ h1, h2, h3, h4, strong {
         padding-bottom: 20px;
     }
     #testimonial-section div {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     #testimonial-section h4 {
         color: var(--grayish-blue);
