@@ -24,7 +24,7 @@ Users should be able to:
 ### Screenshot
 
 ![desktop-version](./screenshots/desktop-version.png)
-![mobile-version](./screenshots/mobile-version.png)
+<img src="screenshots/mobile-version.png" alt="mobile-version" height="720px"/>
 
 ### Links
 
