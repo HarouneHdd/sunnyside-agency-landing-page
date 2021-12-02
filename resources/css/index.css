@@ -24,6 +24,9 @@
 html {
     font-size: 18px;
 }
+body {
+    background-color: rgb(247, 241, 229);
+}
 h1, h2, h3, h4, strong {
     font-family: "Fraunces";
 }
@@ -147,6 +150,8 @@ h1, h2, h3, h4, strong {
         position: relative;
         flex-direction: column;
         background-color: rgb(247, 241, 229);
+        margin: 0 auto;
+        
     }
     .promotion-section img {
         width: 100%;
