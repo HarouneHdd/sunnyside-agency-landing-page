@@ -215,6 +215,10 @@ h1, h2, h3, h4, strong {
         font-size: 1.7rem;
         font-weight: bolder;
         top: 380px;
+        width: 250px;
+        margin: 0 auto;
+        background-color: #ffffffaa;
+        border-radius: 15px;
     }
     .feature-section p {
         position: relative;
@@ -225,6 +229,8 @@ h1, h2, h3, h4, strong {
         font-size: 0.9rem;
         line-height: 1.45rem;
         top: 408px;
+        background-color: #ffffffaa;
+        border-radius: 15px;
     }
     .cherry-bg {
         background-image: url("../images/mobile/image-graphic-design.jpg");
