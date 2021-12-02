@@ -223,9 +223,11 @@ h1, h2, h3, h4, strong {
     }
     .cherry-bg {
         background-image: url("../images/mobile/image-graphic-design.jpg");
+        background-repeat: no-repeat;
     }
     .orange-bg {
         background-image: url("../images/mobile/image-photography.jpg");
+        background-repeat: no-repeat;
     }
     .dark-cyan-color {
         color: var(--dark-desaturated-cyan);
