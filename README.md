@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://harounehdd.github.io/sunnyside-agency-landing-page/](https://harounehdd.github.io/sunnyside-agency-landing-page/)
+- Live Site URL: [https://harounehadid.github.io/sunnyside-agency-landing-page/](https://harounehadid.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
